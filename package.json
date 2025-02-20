@@ -1,0 +1,33 @@
+{
+   "name": "huddle",
+   "version": "1.0.0",
+   "description": "A Chat API",
+   "main": "server.js",
+   "type": "module",
+   "scripts": {
+      "start": "nodemon server.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FruitfulEjiro/Huddle.git"
+   },
+   "author": "Fruitful Ejiro",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/FruitfulEjiro/Huddle/issues"
+   },
+   "homepage": "https://github.com/FruitfulEjiro/Huddle#readme",
+   "dependencies": {
+      "bcryptjs": "^3.0.2",
+      "cookie-parser": "^1.4.7",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.7",
+      "express": "^4.21.2",
+      "express-async-handler": "^1.2.0",
+      "jsonwebtoken": "^9.0.2",
+      "mongodb": "^6.13.0",
+      "mongoose": "^8.10.1",
+      "nodemon": "^3.1.9",
+      "validator": "^13.12.0"
+   }
+}
